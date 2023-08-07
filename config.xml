@@ -1,0 +1,6 @@
+<config>
+    <logdir>D:\work\工具\意大利炮\logs</logdir>
+    <projectile-room>D:\work\工具\意大利炮\弹舱</projectile-room>
+    <default-headers>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82</default-headers>
+    <request_param>path,data,headers,follow_redirects,cache,method,body,json</request_param>
+</config>

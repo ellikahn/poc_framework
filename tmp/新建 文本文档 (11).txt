@@ -1,0 +1,479 @@
+rand: randomInt(200000000, 210000000)
+rand: randomInt(200000000, 210000000)
+无需设置参数
+filename: randomLowercase(6)
+fileContent: randomLowercase(6)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(16)
+r2: randomLowercase(16)
+r2: randomLowercase(10)
+无需设置参数
+无需设置参数
+r1: randomLowercase(8)
+r2: randomLowercase(4)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+无需设置参数
+rand: randomInt(200000000, 210000000)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(6)
+user: randomLowercase(8)
+pass: randomLowercase(8)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(100000, 999999)
+r2: randomInt(100000, 999999)
+rand: randomLowercase(6)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(32)
+无需设置参数
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r: randomInt(2000000000, 2100000000)
+r: randomInt(800000000, 1000000000)
+r: randomInt(800000000, 1000000000)
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+rand: randomInt(200000000, 210000000)
+无需设置参数
+reverse: newReverse()
+reverseURL: reverse.url
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(1, 100)
+无需设置参数
+无需设置参数
+rand: randomInt(200000000, 210000000)
+r1: randomLowercase(4)
+r2: randomLowercase(4)
+host: request.url.host
+r1: randomLowercase(4)
+r2: randomLowercase(4)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(4)
+r2: randomInt(40000, 44800)
+r3: randomInt(40000, 44800)
+无需设置参数
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+r1: randomInt(1000, 9999)
+r2: randomInt(1000, 9999)
+r1: randomInt(8000, 9999)
+r2: randomInt(800, 1000)
+r1: randomInt(4000, 9999)
+r2: randomInt(800, 1000)
+r1: randomInt(40000, 44800)
+r1: randomInt(10000, 99999)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+r: randomInt(800000000, 1000000000)
+r1: randomInt(800000000, 1000000000)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+r1: randomLowercase(4)
+无需设置参数
+r1: randomLowercase(32)
+r2: randomLowercase(32)
+r3: randomLowercase(32)
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+无需设置参数
+rand: randomInt(200000000, 210000000)
+无需设置参数
+rand: randomInt(200000000, 210000000)
+无需设置参数
+fileName: randomLowercase(6)
+verifyStr: randomLowercase(6)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(200000000, 210000000)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+r3: randomLowercase(8)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(8)
+r2: randomLowercase(8)
+r3: randomLowercase(8)
+r4: randomLowercase(8)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(5, 10)
+r2: randomLowercase(r1)
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(5)
+r2: randomLowercase(5)
+r3: randomLowercase(5)
+r4: randomLowercase(5)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+filename: randomLowercase(6)
+fileContent: randomLowercase(6)
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+r1: randomInt(8000000, 10000000)
+r2: randomInt(8000000, 10000000)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+reverse: newReverse()
+reverseUrl: reverse.url
+rand: randomLowercase(4)
+r1: randomInt(1000, 9999)
+r2: randomInt(1000, 9999)
+无需设置参数
+无需设置参数
+reverse: newReverse()
+reverseUrl: reverse.url
+无需设置参数
+无需设置参数
+无需设置参数
+r: randomLowercase(8)
+originScheme: request.url.scheme
+originHost: request.url.host
+reverse: newReverse()
+reverseHost: reverse.url.host
+reverseURL: reverse.url.path
+r1: randomLowercase(10)
+r2: randomLowercase(10)
+r1: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+rand: randomInt(2000000000, 2100000000)
+r1: randomLowercase(5)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r: randomLowercase(12)
+无需设置参数
+无需设置参数
+r: randomInt(800000000, 1000000000)
+无需设置参数
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+无需设置参数
+无需设置参数
+reverse: newReverse()
+reverseURL: reverse.url
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+无需设置参数
+r: randomInt(2000000000, 2100000000)
+r: randomInt(2000000000, 2100000000)
+r: randomInt(2000000000, 2100000000)
+r: randomInt(2000000000, 2100000000)
+无需设置参数
+无需设置参数
+r2: randomLowercase(10)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(3)
+r2: randomLowercase(3)
+r3: randomLowercase(3)
+r4: randomInt(1024, 65535)
+无需设置参数
+无需设置参数
+reverse: newReverse()
+reverseURL: reverse.url
+无需设置参数
+无需设置参数
+rand: randomInt(200000000, 210000000)
+r: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+rand: randomInt(200000000, 210000000)
+r: randomLowercase(6)
+payload: base64("printf(md5('" + r + "'));")
+name: randomInt(10000000, 99999999)
+rand: randomInt(2000000000, 2100000000)
+rand: randomInt(1000, 9999)
+content: randomLowercase(8)
+randname: randomLowercase(4)
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+rand: randomInt(200000000, 210000000)
+r2: randomLowercase(10)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r: randomInt(800000000, 1000000000)
+r1: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(8000, 10000)
+r2: randomInt(8000, 10000)
+无需设置参数
+无需设置参数
+r1: randomLowercase(4)
+r2: randomLowercase(4)
+phpcode: "<?php echo '" + r1 + "'; unlink(__FILE__); ?>"
+
+payload: base64(phpcode)
+无需设置参数
+无需设置参数
+无需设置参数
+reverse: newReverse()
+reverseURL: reverse.url
+r1: randomLowercase(5)
+无需设置参数
+r1: randomInt(40000, 44800)
+r2: randomInt(1140000, 1144800)
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+r3: randomLowercase(8)
+r1: randomLowercase(8)
+无需设置参数
+无需设置参数
+r1: randomLowercase(8)
+r2: randomLowercase(8)
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+r1: randomLowercase(8)
+r: randomInt(800000000, 1000000000)
+r1: randomInt(800000000, 1000000000)
+无需设置参数
+rand: randomInt(2000000000, 2100000000)
+rand1: randomInt(200000000, 210000000)
+rand2: randomInt(200000000, 210000000)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+rand: randomInt(200000000, 210000000)
+无需设置参数
+rand: randomInt(200000000, 210000000)
+无需设置参数
+无需设置参数
+r1: randomLowercase(4)
+r2: randomLowercase(4)
+r1: randomInt(10000, 99999)
+r1: randomInt(800000000, 1000000000)
+reverse: newReverse()
+reverseURL: reverse.url
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+r1: randomInt(20000, 40000)
+r2: randomInt(20000, 40000)
+无需设置参数
+r1: randomInt(40000, 44800)
+r2: randomInt(1140000, 1144800)
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomLowercase(10)
+r2: randomLowercase(10)
+r3: randomLowercase(10)
+r4: randomLowercase(10)
+无需设置参数
+无需设置参数
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+无需设置参数
+无需设置参数
+reverse: newReverse()
+reverseURL: reverse.url
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+r1: randomLowercase(10)
+r2: randomInt(800000000, 1000000000)
+r3: randomInt(800000000, 1000000000)
+r1: randomLowercase(10)
+无需设置参数
+无需设置参数
+r: randomInt(10000, 20000)
+r1: randomInt(1000000000, 2000000000)
+无需设置参数
+无需设置参数
+f1: randomInt(800000000, 900000000)
+无需设置参数
+无需设置参数
+无需设置参数
+filename: randomLowercase(6)
+verifyStr: randomLowercase(12)
+commentStr: randomLowercase(12)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r: randomInt(800000000, 1000000000)
+无需设置参数
+referer: request.url
+random_str: randomLowercase(4)
+payload: base64(urldecode("a%3A2%3A%7Bs%3A7%3A%22adapter%22%3BO%3A12%3A%22Typecho_Feed%22%3A2%3A%7Bs%3A19%3A%22%00Typecho_Feed%00_type%22%3Bs%3A8%3A%22ATOM+1.0%22%3Bs%3A20%3A%22%00Typecho_Feed%00_items%22%3Ba%3A1%3A%7Bi%3A0%3Ba%3A2%3A%7Bs%3A8%3A%22category%22%3Ba%3A1%3A%7Bi%3A0%3BO%3A15%3A%22Typecho_Request%22%3A2%3A%7Bs%3A24%3A%22%00Typecho_Request%00_params%22%3Ba%3A1%3A%7Bs%3A10%3A%22screenName%22%3Bs%3A18%3A%22print%28md5%28%27" + random_str + "%27%29%29%22%3B%7Ds%3A24%3A%22%00Typecho_Request%00_filter%22%3Ba%3A1%3A%7Bi%3A0%3Bs%3A6%3A%22assert%22%3B%7D%7D%7Ds%3A6%3A%22author%22%3BO%3A15%3A%22Typecho_Request%22%3A2%3A%7Bs%3A24%3A%22%00Typecho_Request%00_params%22%3Ba%3A1%3A%7Bs%3A10%3A%22screenName%22%3Bs%3A18%3A%22print%28md5%28%27" + random_str + "%27%29%29%22%3B%7Ds%3A24%3A%22%00Typecho_Request%00_filter%22%3Ba%3A1%3A%7Bi%3A0%3Bs%3A6%3A%22assert%22%3B%7D%7D%7D%7D%7Ds%3A6%3A%22prefix%22%3Bs%3A8%3A%22typecho_%22%3B%7D"))
+无需设置参数
+无需设置参数
+f1: randomInt(800000000, 900000000)
+rand: randomInt(2000000000, 2100000000)
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+reverse: newReverse()
+reverseURL: reverse.url
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+url: request.url
+无需设置参数
+rand: randomInt(200000000, 210000000)
+无需设置参数
+无需设置参数
+无需设置参数
+r: randomInt(800000000, 1000000000)
+r1: randomInt(800000000, 1000000000)
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+无需设置参数
+无需设置参数
+redemail: randomLowercase(15)
+redpassword: randomLowercase(15)
+redproject: randomLowercase(8)
+redinterface: randomLowercase(10)
+r1: randomLowercase(10)
+r2: randomLowercase(10)
+r3: randomLowercase(10)
+r4: randomLowercase(10)
+r: randomInt(800000000, 1000000000)
+r1: randomInt(800000000, 1000000000)
+rand: randomInt(200000000, 220000000)
+r1: randomInt(1000, 9999)
+r2: randomInt(1000, 9999)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+r1: randomInt(10000, 20000)
+r2: randomInt(1000000000, 2000000000)
+r3: b"\xac\xed\x00\x05sr\x00\x11java.util.HashMap\x05\a\xda\xc1\xc3\x16`\xd1\x03\x00\x02F\x00\nloadFactorI\x00\tthresholdxp?@\x00\x00\x00\x00\x00\fw\b\x00\x00\x00\x10\x00\x00\x00\x02t\x00\tFILE_NAMEt\x00\t"
+r4: b".jspt\x00\x10TARGET_FILE_PATHt\x00\x10./webapps/nc_webx"
+r1: randomInt(8000, 9999)
+r2: randomInt(8000, 9999)
+fileName: randomLowercase(4) + ".txt"
+content: randomLowercase(8)
+payload: urlencode(base64("`echo " + content + " > " + fileName + "`"))
+fileName: randomLowercase(4) + ".txt"
+content: randomLowercase(8)
+payload: urlencode(base64("`echo " + content + " > " + fileName + "`"))
+fileName: randomLowercase(4) + ".txt"
+content: randomLowercase(8)
+payload: urlencode(base64("`echo " + content + " > " + fileName + "`"))
+rand: randomInt(2000000000, 2100000000)
+无需设置参数
+r: randomInt(2000000000, 2100000000)
+无需设置参数
+无需设置参数
+无需设置参数
+r1: randomInt(800000000, 1000000000)
+r2: randomInt(800000000, 1000000000)
+无需设置参数
+r0: randomLowercase(6)
+r1: randomInt(40000, 44800)
+r2: randomInt(40000, 44800)
+0
+
